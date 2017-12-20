@@ -23,9 +23,23 @@ id,birth date,job type,school level,domestic status,profession,domestic relation
 
 Where `target` is the target column.
 
-## Submission
+## Submission and evaluation
+
+### Providing predictions
 
 You will be expected to deploy a server [on heroku](https://github.com/LDSSA/heroku-example) in which observations will
 arrive over a period of a few weeks and the predictions you return will be used in the grading.
 
 Please refer to the [calendar](https://calendar.google.com/calendar/b/2?cid=bGlzYm9uZGF0YXNjaWVuY2Uub3JnX2pjaWYwZnJyMzk3YXBoZzB0cGhuN2w2N2FnQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20), [hackathon description document](https://docs.google.com/document/d/1AqZ8JPzkaBkEeeESJHhkyVrw9sr2DYg_tldfJLutVeY/edit?usp=sharing), and [report specification](https://docs.google.com/document/d/1mmbOgLub_UaP_dckjwuhwz8ExurDpJaTz_D6woBEfE8/edit?usp=sharing) for details on the hackathon.
+
+### Evaluation
+
+Your model will be evaluated on it's ranking ability ([ROC_AUC_SCORE](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html))
+
+Like the other hackathons you will be evaluated in two main components:
+
+- The ranking ability of your model
+- The approach you take and how well you communicate it
+
+The scoring is not finalized yet but you can be sure that you will not be able to win the hackathon only with a good model.
+You will also need to do an excellent job on the reporting as well.
