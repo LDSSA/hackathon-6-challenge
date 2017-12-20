@@ -1,4 +1,4 @@
-# hackathon-6-challenge-private
+# hackathon-6-challenge
 
 In this challenge you will have to predict whether a person will become un-employed in the next 12 months.
 
