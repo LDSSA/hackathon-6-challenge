@@ -27,7 +27,7 @@ Where `target` is the target column.
 
 ### Providing predictions
 
-You will be expected to deploy a server [on heroku](https://github.com/LDSSA/heroku-example) in which observations will
+You will be expected to deploy a server [on heroku](https://github.com/LDSSA/heroku-model-deploy) in which observations will
 arrive over a period of a few weeks and the predictions you return will be used in the grading.
 
 Please refer to the [calendar](https://calendar.google.com/calendar/b/2?cid=bGlzYm9uZGF0YXNjaWVuY2Uub3JnX2pjaWYwZnJyMzk3YXBoZzB0cGhuN2w2N2FnQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20), [hackathon description document](https://docs.google.com/document/d/1AqZ8JPzkaBkEeeESJHhkyVrw9sr2DYg_tldfJLutVeY/edit?usp=sharing), and [report specification](https://docs.google.com/document/d/1mmbOgLub_UaP_dckjwuhwz8ExurDpJaTz_D6woBEfE8/edit?usp=sharing) for details on the hackathon.
