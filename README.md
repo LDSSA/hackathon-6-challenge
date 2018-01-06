@@ -34,7 +34,8 @@ Please refer to the [calendar](https://calendar.google.com/calendar/b/2?cid=bGlz
 
 ### Evaluation
 
-Your model will be evaluated on it's ranking ability ([ROC_AUC_SCORE](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html))
+Your model will be evaluated on it's ranking ability ([ROC_AUC_SCORE](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html)). What this means
+is that your predictive model will be returning the output of `predict_proba`!
 
 Like the other hackathons you will be evaluated in two main components:
 
