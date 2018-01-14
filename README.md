@@ -58,7 +58,6 @@ url = http://<your-deployed-server>/predict
 payload = {
   "id": 1,
   "observation": {
-    "id": 15463,
     "birth date": "1983-12-26",
     "job type": "private",
     "school level": "secondary",
