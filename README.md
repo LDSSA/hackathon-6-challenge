@@ -44,3 +44,48 @@ Like the other hackathons you will be evaluated in two main components:
 
 The scoring is not finalized yet but you can be sure that you will not be able to win the hackathon only with a good model.
 You will also need to do an excellent job on the reporting as well.
+
+## Request format
+
+### New predictions
+
+For incoming observations, the the following payload will be POSTed to your server:
+
+
+```py
+url = http://<your-deployed-server>/predict
+
+payload = {
+  "id": 1,
+  "observation": {
+    "id": 15463,
+    "birth date": "1983-12-26",
+    "job type": "private",
+    "school level": "secondary",
+    "domestic status": "single",
+    "profession": "mechanic",
+    "domestic relationship type": "never married",
+    "ethnicity": "afro american",
+    "gender": "Female",
+    "earned dividends": 0,
+    "interest earned": 0,
+    "monthly work": 160,
+    "country of origin": "u.s.",
+    "target": 1
+  }
+} 
+```
+
+### Updates
+
+Assuming that you've already provided a prediction for observation with id=1, the update containing the true outcome
+will arrive as follows:
+
+```py
+url = http://<your-deployed-server>/update
+
+payload = {
+  "id": 1,
+  "true_class": 0
+}
+```
