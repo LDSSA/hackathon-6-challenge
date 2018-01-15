@@ -74,6 +74,17 @@ payload = {
 } 
 ```
 
+The response must be in the format
+
+```
+{
+  "proba": <float>
+}
+```
+
+If you are not in the format of a single dictionary that has a single key "proba" that maps to a float value, your
+prediction will not be counted!
+
 ### Updates
 
 Assuming that you've already provided a prediction for observation with id=1, the update containing the true outcome
